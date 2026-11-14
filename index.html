@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HM OFFICIAL — personal portfolio, projects and skills.">
+  <title>HM OFFICIAL | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">HM</span> HM OFFICIAL</a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="#about">ABOUT</a><a href="#projects">PROJECTS</a>
+      <a href="#skills">SKILLS</a><a href="#gallery">GALLERY</a><a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="roles">
+        <span>• MOBILE REPAIRING</span>
+        <span>• MOBILE SOFTWARE</span>
+        <span>• CREATIVE CONTENT</span>
+        <span>• WEB PROJECTS</span>
+      </div>
+      <div class="hero-watermark" aria-hidden="true">HM</div>
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO MY PERSONAL WEBSITE</p>
+        <h1>HM <span>OFFICIAL</span></h1>
+        <p class="tagline">Technology • Creativity • Innovation</p>
+        <p class="intro">I’m building useful technology projects and sharing my creative work with the world.</p>
+        <a class="primary-btn" href="#projects">EXPLORE MY WORK <span>↗</span></a>
+      </div>
+      <div class="portrait-wrap">
+        <!-- Add your own photo in this folder and name it profile.jpg -->
+        <img src="profile.jpg" alt="HM Official profile photo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+        <div class="photo-placeholder"><span>HM</span><small>YOUR PHOTO HERE</small></div>
+      </div>
+      <div class="signature">HM Official</div>
+      <div class="hero-note">PERSONAL PORTFOLIO <span>—</span> PAKISTAN</div>
+    </section>
+
+    <section class="content-section" id="about">
+      <p class="section-kicker">01 / INTRODUCTION</p><h2>About <em>Me</em></h2>
+      <p class="section-text">Welcome to HM OFFICIAL. This is my online space to introduce myself, showcase my projects, and share the work I create. This text can be edited with your own introduction.</p>
+    </section>
+    <section class="content-section" id="projects">
+      <p class="section-kicker">02 / WHAT I CREATE</p><h2>Featured <em>Projects</em></h2>
+      <div class="cards">
+        <article class="project-card"><span>01</span><h3>HM Mobile Tool Pro</h3><p>Mobile diagnostics and repair utilities.</p></article>
+        <article class="project-card"><span>02</span><h3>HM Mobile Zone</h3><p>Mobile repair services and updates.</p></article>
+        <article class="project-card"><span>03</span><h3>Digital Projects</h3><p>Websites, creative ideas and experiments.</p></article>
+      </div>
+    </section>
+    <section class="content-section" id="skills">
+      <p class="section-kicker">03 / MY WORK</p><h2>Skills & <em>Interests</em></h2>
+      <div class="skill-list"><span>Mobile Repairing</span><span>Mobile Software</span><span>Content Creation</span><span>Website Projects</span></div>
+    </section>
+    <section class="content-section" id="gallery">
+      <p class="section-kicker">04 / VISUALS</p><h2>My <em>Gallery</em></h2>
+      <p class="section-text">Your photos and project images can be added here later.</p>
+    </section>
+    <section class="content-section contact" id="contact">
+      <p class="section-kicker">05 / GET IN TOUCH</p><h2>Let’s <em>Connect</em></h2>
+      <p class="section-text">Add your public social links and business contact details here.</p>
+      <a class="primary-btn" href="https://www.facebook.com/" target="_blank" rel="noreferrer">FACEBOOK <span>↗</span></a>
+    </section>
+  </main>
+  <footer>© <span id="year"></span> HM OFFICIAL. ALL RIGHTS RESERVED.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
